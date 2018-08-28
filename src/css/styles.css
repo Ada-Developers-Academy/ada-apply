@@ -32,6 +32,11 @@ body {
 
 a {
   color: #4c868f;
+  text-decoration: underline;
+}
+
+a.btn, footer a {
+  text-decoration: none;
 }
 
 a:hover {
