@@ -5,3 +5,7 @@ header {
 .container {
   margin-bottom: 2rem;
 }
+
+footer.container {
+  margin-bottom: 0;
+}
