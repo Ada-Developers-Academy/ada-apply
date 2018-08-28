@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+env = ARGV.first
+if env.nil?
+  puts "Usage: deploy <environment>"
+  puts "Where <environment> is one of: prod, dev"
+  exit 1
+end
+
+BUCKET = "apply#{'-dev' if env == 'dev'}.adadev.org"
+
+# Upload files to S3
+FILES = [
+  "index.html",
+  "styles.css"
+]
+
+FILES.each do |file|
+  puts `aws s3 cp #{file} s3://#{BUCKET}/ --acl public-read`
+end
