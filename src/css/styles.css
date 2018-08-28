@@ -1,6 +1,15 @@
 header.jumbotron {
   text-align: center;
   background-color: #c6dde1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 30rem;
+  margin-right: 2rem;
 }
 
 .container {
