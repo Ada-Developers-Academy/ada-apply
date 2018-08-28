@@ -10,11 +10,4 @@ end
 BUCKET = "apply#{'-dev' if env == 'dev'}.adadev.org"
 
 # Upload files to S3
-FILES = [
-  "index.html",
-  "styles.css"
-]
-
-FILES.each do |file|
-  puts `aws s3 cp #{file} s3://#{BUCKET}/ --acl public-read`
-end
+puts `aws s3 sync src/ s3://#{BUCKET}/ --acl public-read`
