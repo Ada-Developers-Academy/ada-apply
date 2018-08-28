@@ -6,6 +6,10 @@ header {
   margin-bottom: 2rem;
 }
 
+.instructions-step {
+  margin-bottom: 2rem;
+}
+
 footer.container {
   margin-bottom: 0;
 }
