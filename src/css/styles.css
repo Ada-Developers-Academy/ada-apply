@@ -1,0 +1,44 @@
+header.jumbotron {
+  text-align: center;
+  background-color: #c6dde1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 30rem;
+  margin-right: 2rem;
+}
+
+.container {
+  margin-bottom: 2rem;
+}
+
+.instructions-step {
+  margin-bottom: 2rem;
+}
+
+footer.container {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+body {
+  color: #444;
+  background: white;
+}
+
+a {
+  color: #4c868f;
+  text-decoration: underline;
+}
+
+a.btn, footer a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #636363;
+}
