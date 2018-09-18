@@ -42,3 +42,7 @@ a.btn, footer a {
 a:hover {
   color: #636363;
 }
+
+.closed-notice h3 {
+  text-align: center;
+}
