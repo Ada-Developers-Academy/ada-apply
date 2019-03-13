@@ -46,3 +46,8 @@ a:hover {
 .closed-notice h3 {
   text-align: center;
 }
+
+#applications-closed {
+  text-align: center;
+  font-size: 30px;
+}
