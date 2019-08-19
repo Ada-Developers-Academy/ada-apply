@@ -54,6 +54,8 @@ Then you will need to use the [Cloudfront Console](https://console.aws.amazon.co
 To create the invalidation:
 
 1. Log into the [Cloudfront Console](https://console.aws.amazon.com/cloudfront).
-2. Click into the "Invalidations" tab.
-3. Click "Create Invalidation" and put in `/` as the object path.
-
+   * Use the it@adadevelopersacademy.org credentials from LastPass.
+2. Click into the "Distribution" for apply.adadev.org (E1YKMRTO9G7F1G)
+3. Click into the "Invalidations" tab.
+4. Click "Create Invalidation" and put in `/` as the object path.
+5. Repeat steps 2 through 4 for application.adadevelopersacademy.org (E2R1BVOWQFA8RO)
